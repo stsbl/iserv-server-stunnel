@@ -1,0 +1,17 @@
+Source: stsbl-iserv-server-stunnel
+Section: misc
+Priority: optional
+Maintainer: Stadtteilschule Blankenese <repository@stsbl.de>
+Build-Depends: debhelper (>= 10)
+Build-Depends-Indep: iserv3-dev
+Standards-Version: 4.3.0
+
+Package: stsbl-iserv-server-stunnel
+Architecture: all
+Depends: ${misc:Depends},
+  ${perl:Depends},
+  iserv-update,
+  stunnel4,
+Description: IServ Stunnel-Server
+ Konfiguriert den TLS-Tunnel-Server Stunnel.
+Tag: suite::iserv

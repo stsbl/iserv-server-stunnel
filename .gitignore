@@ -1,0 +1,6 @@
+debian/stsbl-iserv-server-stunnel/*
+debian/stsbl-iserv-server-stunnel.substvars
+debian/stsbl-iserv-server-stunnel.debhelper.log
+debian/files
+debian/debhelper-build-stamp
+debian/*.debhelper

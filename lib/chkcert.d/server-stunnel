@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+
+Phase="$1"
+CertName="$2"
+
+if [ "$Phase" = "post" ] && [ "$CertName" = "iserv" ]
+then
+  # restart stunnel as there are probably services using our certificate
+  iservchk -ra stunnel || true
+fi
