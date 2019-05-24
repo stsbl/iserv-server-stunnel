@@ -1,3 +1,10 @@
+stsbl-iserv-server-stunnel (19.05.24-1) unstable; urgency=medium
+
+  * Updated source format
+  * Removed check with bootstrapping problem
+
+ -- Felix Jacobi <Felix@jacobi-hamburg.net>  Fri, 24 May 2019 13:15:03 +0200
+
 stsbl-iserv-server-stunnel (19.05.18-1) unstable; urgency=medium
 
   * Initial Release.
