@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+
+if [ "$1" = "remove" ]
+then
+  deb-systemd-invoke stop stunnel4 || true
+  deb-systemd-invoke disable stunnel4 || true
+fi
+
+#DEBHELPER#
